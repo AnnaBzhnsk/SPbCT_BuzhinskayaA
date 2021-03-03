@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class Multi extends Applet implements Runnable
 {
-    // Поток, который будет работать одновременно с апплетом
+    //Поток, который будет работать одновременно с апплетом
     private Thread m_Multi = null;
     boolean going = true;
     // Признак режима работы программы:
