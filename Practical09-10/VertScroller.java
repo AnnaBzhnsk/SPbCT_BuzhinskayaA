@@ -9,7 +9,7 @@ import java.util.Vector;
 
 public class VertScroller extends Applet implements Runnable, ActionListener{
     String strs[]={"First string", "Second string", "Third string"};
-    // текущий размер окна апплета
+    //текущий размер окна апплета
     private Vector strings;
     private int count = 0;
     private int height;
