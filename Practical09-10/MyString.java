@@ -17,7 +17,7 @@ public class MyString extends Object // класс для реализации �
         g.drawString(str,x,y);
     }
 
-    public void move(int width, int height) {
+    public void move(int width, int height){
         x = x+ deltax;
         y = y+deltay;
     }
